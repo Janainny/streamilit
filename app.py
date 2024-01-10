@@ -4,6 +4,7 @@ from api.service import get_data
 import folium
 from streamlit_folium import st_folium
 
+st.set_page_config(page_title="Meu site streamlit")
 
 st.image('img/ifpi.png',width=150)
 st.title('Cruviana Dashboard')
